@@ -1,0 +1,18 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger! A restaurant app that lets users input the names of the burgers they'd like to eat. Whenever a user submits a burger's name, Eat-Da-Burger will display the burger on the left side of the page, waiting to be devoured. Each burger int he waiting area also has a `Devour it` button. When the user clicks it, the burger will move to the right side of the page. Ever burger will be in a database, whether it is devoured or not!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
+}
