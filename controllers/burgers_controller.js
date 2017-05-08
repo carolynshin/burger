@@ -51,9 +51,11 @@ router.put('/:id', function(request, response){
 				burger: data
 			}
 
-			response.render('index', burger);
+			// response.render('index', burger);
+			response.redirect("/");
 		})
 	})
+
 
 });
 
